@@ -1,0 +1,176 @@
+nav {
+  text-align: center;
+  background-color: #151d2d;
+  padding: 15px, 15px;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+header {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FhfHieAMnG38%2Fmaxresdefault.jpg&f=1&nofb=1");
+  background-size: cover;
+}
+
+.header-h1 {
+  text-align: center;
+  color: #f0efec;
+  font-size: 60px;
+  padding-top: 100px;
+}
+.header-h2 {
+  text-align: center;
+  color: #f0efec;
+  font-size: 25px;
+  padding-bottom: 100px;
+}
+.navbar-link {
+  text-decoration: none;
+  color: #f0efec;
+  font-size: large;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.service-section {
+  padding: 100px 0;
+  background-color: #f0efec;
+}
+.services-header {
+  font-size: 50px;
+  text-align: center;
+  color: #151d2d;
+  margin-bottom:50px;
+}
+.services{
+  font-size: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  color: #f0efec;
+}
+.service{
+  width:200px;
+  height:200px;
+  background-color:#151d2d;
+  border-radius: 60%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+.services-icon{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.about-us {
+  background-color: #151d2d;
+  text-align: center;
+  color: #f0efec;
+  font-size: 20px;
+  padding: 50px;
+}
+.about-us-header {
+  font-size: 50px;
+  padding:50px;
+}
+.about-us-img {
+  border-radius: 10%;
+}
+.about-us-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-us-paragraph{
+  width: 500px;
+  font-size: 18px;
+  color:#151d2d;
+}
+.para{
+  background: white;
+  padding: 10px 10px;
+  border-radius: 10%;
+}
+.testi-header {
+  font-size: 50px;
+  color: #151d2d;
+  padding-bottom: 50px;
+}
+.testimonials {
+  padding: 90px;
+  text-align: center;
+  font-size: 25px;
+  color: #151d2d;
+  background-color: #f0efec;
+  text-align: center;
+}
+.quotes {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.quote-style {
+  width: 350px;
+  font-size: 25px;
+}
+
+.contact-us {
+  background-color: #151d2d;
+  text-align: center;
+  color: #f0efec;
+  font-size: 20px;
+  padding: 60px;
+}
+
+.header-contact {
+  font-size: 50px;
+}
+input {
+  border: none;
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+  padding:10px;
+}
+textarea {
+  margin-top: 10px;
+  border-radius: 10%;
+  padding:10px;
+}
+Button {
+  font-size: 16px;
+  background: #f6f7f7;
+  color: #3a4396;
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: none;
+}
+.contact-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+::placeholder{
+  font-size:20px;
+}
